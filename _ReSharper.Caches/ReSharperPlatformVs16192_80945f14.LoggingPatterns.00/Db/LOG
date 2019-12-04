@@ -1,0 +1,18 @@
+2019/12/04-16:09:04.459 4e80 Recovering log #45
+2019/12/04-16:09:04.479 4e80 Level-0 table #51: started
+2019/12/04-16:09:04.559 4e80 Level-0 table #51: 1607132 bytes OK
+2019/12/04-16:09:04.602 4e80 Delete type=0 #45
+2019/12/04-16:09:04.602 4e80 Delete type=3 #2
+2019/12/04-16:09:05.654 48c0 Compacting 1@0 + 1@1 files
+2019/12/04-16:09:05.694 48c0 Generated table #53: 131 keys, 23865 bytes
+2019/12/04-16:09:05.760 48c0 Generated table #54: 581 keys, 103662 bytes
+2019/12/04-16:09:05.760 48c0 Compacted 1@0 + 1@1 files => 127527 bytes
+2019/12/04-16:09:05.784 48c0 Delete type=2 #47
+2019/12/04-16:09:05.784 48c0 Delete type=2 #51
+2019/12/04-16:09:05.785 48c0 compacted to: files[ 0 2 11 0 0 0 0 ]
+2019/12/04-16:12:00.541 48c0 Compacting 1@1 + 1@2 files
+2019/12/04-16:12:00.759 48c0 Generated table #55: 2899 keys, 1866417 bytes
+2019/12/04-16:12:00.759 48c0 Compacted 1@1 + 1@2 files => 1866417 bytes
+2019/12/04-16:12:00.780 48c0 Delete type=2 #49
+2019/12/04-16:12:00.780 48c0 Delete type=2 #54
+2019/12/04-16:12:00.780 48c0 compacted to: files[ 0 1 11 0 0 0 0 ]

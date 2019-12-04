@@ -1,0 +1,58 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Enums/f:SaverType.cs" caret="104" fromTop="4" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Factory/f:FactoryProducer.cs" caret="462" fromTop="17" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Enums/f:LogType.cs" caret="63" fromTop="3" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/f:Extension.cs" caret="0" fromTop="0" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:CoR/f:ILogHandler.cs" caret="117" fromTop="2" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:CoR/f:LogHandler.cs" caret="126" fromTop="3" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Savers/d:Email/f:FtpSaver.cs" caret="106" fromTop="1" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Savers/d:Database/f:PostgreSaver.cs" caret="239" fromTop="6" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Savers/d:Email/f:EmailSaver.cs" caret="195" fromTop="4" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Factory/f:AbstractFactory.cs" caret="152" fromTop="4" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Factory/f:ConsoleFactory.cs" caret="210" fromTop="3" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Factory/f:DatabaseFactory.cs" caret="212" fromTop="3" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Factory/f:EmailFactory.cs" caret="206" fromTop="5" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Savers/d:Console/f:ConsoleSaver.cs" caret="386" fromTop="10" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Savers/f:ILogSaver.cs" caret="128" fromTop="3" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/f:Program.cs" caret="398" fromTop="10" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Savers/d:Console/f:MessageBoxSaver.cs" caret="135" fromTop="3" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Savers/d:Database/f:MongoSaver.cs" caret="86" fromTop="1" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/f:Extension.cs" caret="157" fromTop="6" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Enums/f:LogType.cs" caret="165" fromTop="5" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Enums/f:LogType.cs" caret="174" fromTop="8" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Savers/d:Email/f:EmailSaver.cs" caret="205" fromTop="9" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Factory/f:FactoryProducer.cs" caret="464" fromTop="11" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Factory/f:FactoryProducer.cs" caret="462" fromTop="16" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Savers/d:Console/f:ConsoleSaver.cs" caret="234" fromTop="6" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Savers/d:Email/f:EmailSaver.cs" caret="143" fromTop="4" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Enums/f:SaverType.cs" caret="42" fromTop="0" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Factory/f:FactoryProducer.cs" caret="120" fromTop="2" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Savers/d:Database/f:PostgreSaver.cs" caret="0" fromTop="0" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Factory/f:ConsoleFactory.cs" caret="427" fromTop="13" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Factory/f:EmailFactory.cs" caret="405" fromTop="13" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Factory/f:DatabaseFactory.cs" caret="420" fromTop="13" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Enums/f:SaverType.cs" caret="104" fromTop="4" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Enums/f:LogType.cs" caret="63" fromTop="3" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/f:Program.cs" caret="0" fromTop="0" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:CoR/f:ILogHandler.cs" caret="117" fromTop="1" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:CoR/f:LogHandler.cs" caret="107" fromTop="2" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:CoR/f:LogHandler.cs" caret="224" fromTop="7" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Savers/d:Console/f:MessageBoxSaver.cs" caret="261" fromTop="1" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Savers/d:Database/f:MongoSaver.cs" caret="159" fromTop="3" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Savers/d:Database/f:PostgreSaver.cs" caret="161" fromTop="3" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Savers/d:Email/f:EmailSaver.cs" caret="108" fromTop="2" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Savers/d:Email/f:FtpSaver.cs" caret="106" fromTop="1" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Factory/f:AbstractFactory.cs" caret="152" fromTop="4" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Factory/f:ConsoleFactory.cs" caret="210" fromTop="3" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Factory/f:DatabaseFactory.cs" caret="212" fromTop="3" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Factory/f:EmailFactory.cs" caret="206" fromTop="5" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Savers/d:Console/f:ConsoleSaver.cs" caret="386" fromTop="10" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Savers/f:ILogSaver.cs" caret="129" fromTop="3" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/f:Program.cs" caret="398" fromTop="10" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Savers/d:Console/f:MessageBoxSaver.cs" caret="135" fromTop="3" />
+    <File id="6BB55192-93A1-41F3-B692-AE0CF0A2D463/d:Components/d:Savers/d:Database/f:MongoSaver.cs" caret="86" fromTop="1" />
+  </RecentEdits>
+</RecentFiles>

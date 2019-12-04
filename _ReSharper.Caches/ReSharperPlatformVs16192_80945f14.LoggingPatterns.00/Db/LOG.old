@@ -1,0 +1,97 @@
+2019/12/04-12:57:18.684 32b8 Delete type=3 #1
+2019/12/04-12:57:25.317 30bc Level-0 table #5: started
+2019/12/04-12:57:25.525 30bc Level-0 table #5: 4428048 bytes OK
+2019/12/04-12:57:25.542 30bc Delete type=0 #3
+2019/12/04-12:57:25.650 30bc Level-0 table #7: started
+2019/12/04-12:57:25.817 30bc Level-0 table #7: 4057221 bytes OK
+2019/12/04-12:57:25.837 30bc Delete type=0 #4
+2019/12/04-12:57:25.908 30bc Level-0 table #9: started
+2019/12/04-12:57:26.009 30bc Level-0 table #9: 3862697 bytes OK
+2019/12/04-12:57:26.028 30bc Delete type=0 #6
+2019/12/04-12:57:26.117 30bc Level-0 table #11: started
+2019/12/04-12:57:26.234 30bc Level-0 table #11: 4083246 bytes OK
+2019/12/04-12:57:26.252 30bc Delete type=0 #8
+2019/12/04-12:57:26.350 30bc Level-0 table #13: started
+2019/12/04-12:57:26.476 30bc Level-0 table #13: 4054822 bytes OK
+2019/12/04-12:57:26.503 30bc Delete type=0 #10
+2019/12/04-13:05:17.404 30bc Compacting 3@0 + 1@1 files
+2019/12/04-13:05:17.569 30bc Generated table #14: 5284 keys, 2155564 bytes
+2019/12/04-13:05:17.710 30bc Generated table #15: 4717 keys, 2169244 bytes
+2019/12/04-13:05:17.814 30bc Generated table #16: 2717 keys, 2169821 bytes
+2019/12/04-13:05:17.904 30bc Generated table #17: 3427 keys, 2167919 bytes
+2019/12/04-13:05:17.979 30bc Generated table #18: 3321 keys, 2158206 bytes
+2019/12/04-13:05:18.057 30bc Generated table #19: 3376 keys, 2164738 bytes
+2019/12/04-13:05:18.119 30bc Generated table #20: 3091 keys, 2165468 bytes
+2019/12/04-13:05:18.166 30bc Generated table #21: 1067 keys, 824951 bytes
+2019/12/04-13:05:18.166 30bc Compacted 3@0 + 1@1 files => 15975911 bytes
+2019/12/04-13:05:18.195 30bc Delete type=2 #7
+2019/12/04-13:05:18.196 30bc Delete type=2 #9
+2019/12/04-13:05:18.198 30bc Delete type=2 #11
+2019/12/04-13:05:18.199 30bc Delete type=2 #13
+2019/12/04-13:05:18.201 30bc compacted to: files[ 0 8 1 0 0 0 0 ]
+2019/12/04-13:05:18.201 30bc Expanding@1 1+1 to 8+1
+2019/12/04-13:05:18.201 30bc Compacting 8@1 + 1@2 files
+2019/12/04-13:05:18.285 30bc Generated table #22: 3191 keys, 2156576 bytes
+2019/12/04-13:05:18.354 30bc Generated table #23: 5097 keys, 2166665 bytes
+2019/12/04-13:05:18.436 30bc Generated table #24: 4611 keys, 2166827 bytes
+2019/12/04-13:05:18.537 30bc Generated table #25: 3127 keys, 2191065 bytes
+2019/12/04-13:05:18.610 30bc Generated table #26: 2304 keys, 2192602 bytes
+2019/12/04-13:05:18.671 30bc Generated table #27: 3373 keys, 2165079 bytes
+2019/12/04-13:05:18.748 30bc Generated table #28: 3333 keys, 2162667 bytes
+2019/12/04-13:05:18.823 30bc Generated table #29: 3387 keys, 2163818 bytes
+2019/12/04-13:05:18.877 30bc Generated table #30: 2984 keys, 2170781 bytes
+2019/12/04-13:05:18.916 30bc Generated table #31: 1082 keys, 764702 bytes
+2019/12/04-13:05:18.916 30bc Compacted 8@1 + 1@2 files => 20300782 bytes
+2019/12/04-13:05:18.944 30bc Delete type=2 #5
+2019/12/04-13:05:18.946 30bc Delete type=2 #14
+2019/12/04-13:05:18.948 30bc Delete type=2 #15
+2019/12/04-13:05:18.949 30bc Delete type=2 #16
+2019/12/04-13:05:18.950 30bc Delete type=2 #17
+2019/12/04-13:05:18.951 30bc Delete type=2 #18
+2019/12/04-13:05:18.952 30bc Delete type=2 #19
+2019/12/04-13:05:18.953 30bc Delete type=2 #20
+2019/12/04-13:05:18.954 30bc Delete type=2 #21
+2019/12/04-13:05:18.955 30bc compacted to: files[ 0 0 10 0 0 0 0 ]
+2019/12/04-13:06:35.683 30bc Level-0 table #33: started
+2019/12/04-13:06:35.895 30bc Level-0 table #33: 3732317 bytes OK
+2019/12/04-13:06:35.924 30bc Delete type=0 #12
+2019/12/04-13:06:53.092 30bc Compacting 1@1 + 10@2 files
+2019/12/04-13:06:53.225 30bc Generated table #34: 3191 keys, 2157298 bytes
+2019/12/04-13:06:53.329 30bc Generated table #35: 5107 keys, 2166301 bytes
+2019/12/04-13:06:53.437 30bc Generated table #36: 4630 keys, 2166034 bytes
+2019/12/04-13:06:53.551 30bc Generated table #37: 4040 keys, 2184564 bytes
+2019/12/04-13:06:53.661 30bc Generated table #38: 2517 keys, 2173296 bytes
+2019/12/04-13:06:53.731 30bc Generated table #39: 2911 keys, 2187328 bytes
+2019/12/04-13:06:53.794 30bc Generated table #40: 3268 keys, 2159992 bytes
+2019/12/04-13:06:53.898 30bc Generated table #41: 3652 keys, 2156850 bytes
+2019/12/04-13:06:53.973 30bc Generated table #42: 3660 keys, 2171955 bytes
+2019/12/04-13:06:54.036 30bc Generated table #43: 2397 keys, 2180375 bytes
+2019/12/04-13:06:54.096 30bc Generated table #44: 2586 keys, 1765541 bytes
+2019/12/04-13:06:54.096 30bc Compacted 1@1 + 10@2 files => 23469534 bytes
+2019/12/04-13:06:54.112 30bc Delete type=2 #22
+2019/12/04-13:06:54.112 30bc Delete type=2 #23
+2019/12/04-13:06:54.113 30bc Delete type=2 #24
+2019/12/04-13:06:54.113 30bc Delete type=2 #25
+2019/12/04-13:06:54.114 30bc Delete type=2 #26
+2019/12/04-13:06:54.114 30bc Delete type=2 #27
+2019/12/04-13:06:54.115 30bc Delete type=2 #28
+2019/12/04-13:06:54.115 30bc Delete type=2 #29
+2019/12/04-13:06:54.116 30bc Delete type=2 #30
+2019/12/04-13:06:54.116 30bc Delete type=2 #31
+2019/12/04-13:06:54.117 30bc Delete type=2 #33
+2019/12/04-13:06:54.117 30bc compacted to: files[ 0 0 11 0 0 0 0 ]
+2019/12/04-13:48:30.624 30bc Level-0 table #46: started
+2019/12/04-13:48:30.724 30bc Level-0 table #46: 3486661 bytes OK
+2019/12/04-13:48:30.737 30bc Delete type=0 #32
+2019/12/04-13:48:45.006 30bc Compacting 1@0 + 0@1 files
+2019/12/04-13:48:45.044 30bc Generated table #47: 114 keys, 20856 bytes
+2019/12/04-13:48:45.078 30bc Generated table #48: 1088 keys, 140785 bytes
+2019/12/04-13:48:45.078 30bc Compacted 1@0 + 0@1 files => 161641 bytes
+2019/12/04-13:48:45.092 30bc Delete type=2 #46
+2019/12/04-13:48:45.092 30bc compacted to: files[ 0 2 11 0 0 0 0 ]
+2019/12/04-13:48:53.297 30bc Compacting 1@1 + 1@2 files
+2019/12/04-13:48:53.415 30bc Generated table #49: 2859 keys, 1859206 bytes
+2019/12/04-13:48:53.415 30bc Compacted 1@1 + 1@2 files => 1859206 bytes
+2019/12/04-13:48:53.439 30bc Delete type=2 #44
+2019/12/04-13:48:53.439 30bc Delete type=2 #48
+2019/12/04-13:48:53.439 30bc compacted to: files[ 0 1 11 0 0 0 0 ]
