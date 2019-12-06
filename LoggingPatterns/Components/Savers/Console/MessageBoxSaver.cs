@@ -1,12 +1,13 @@
-﻿
-using LoggingPatterns.Components.Enums;
+﻿using LoggingPatterns.Components.Enums;
+using System.Windows.Forms;
 
 namespace LoggingPatterns.Components.Savers.Console {
 	public class MessageBoxSaver : LogSaver {
+		public override object Handle(object request) {
+			var requestType = (request as string).GetLogType();
 
-        public override object Handle(object request) {
-            if ((request as LogType?).IsOneOf(LogType.Debug)) {
-                System.Console.WriteLine("messagebox");
+			if (requestType.IsOneOf(LogType.Debug)) {
+	            MessageBox.Show(request as string);
             }
 
             return base.Handle(request);

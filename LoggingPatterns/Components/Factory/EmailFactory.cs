@@ -8,10 +8,6 @@ namespace LoggingPatterns.Components.Factory {
 				return new EmailSaver();
 			}
 
-			if (type.ToUpper() == "FTP") {
-				return new FtpSaver();
-			}
-
 			return null;
 		}
 	}

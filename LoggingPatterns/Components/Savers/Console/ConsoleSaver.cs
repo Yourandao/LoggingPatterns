@@ -3,9 +3,12 @@
 namespace LoggingPatterns.Components.Savers.Console {
 	public class ConsoleSaver : LogSaver {
 
-        public override object Handle(object request) {
-            if ((request as LogType?).IsOneOf(LogType.Debug)) {
-                System.Console.WriteLine("blablabla");
+        public override object Handle(object request)
+        {
+	        var requestType = (request as string).GetLogType();
+
+            if (requestType.IsOneOf(LogType.Debug)) {
+	            System.Console.WriteLine(request.ToString());
             }
 
             return base.Handle(request);

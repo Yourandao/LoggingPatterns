@@ -1,24 +1,36 @@
-﻿using System;
+﻿using LoggingPatterns.Components.Factory;
+using System;
+using System.Collections.Generic;
 using LoggingPatterns.Components.Enums;
-using LoggingPatterns.Components.Factory;
 
-namespace LoggingPatterns {
-	public class Program {
-		private static void Main(string[] args) {
-			AbstractFactory f = FactoryProducer.GetFactory(SaverType.Database);
-			var a = f.GetLogSaver("POSTGRES");
+namespace LoggingPatterns
+{
+	public class Program
+	{
+		private static void Main(string[] args)
+		{
+			AbstractFactory factory = FactoryProducer.GetFactory(SaverType.Database);
 
-			f = FactoryProducer.GetFactory(SaverType.Console);
-			var b = f.GetLogSaver("CONSOLE");
+			var mongoSaver = factory.GetLogSaver("MONGO");
 
-            f = FactoryProducer.GetFactory(SaverType.Database);
-            var c = f.GetLogSaver("MONGO");
+			factory = FactoryProducer.GetFactory(SaverType.Console);
 
-            a.SetNext(b).SetNext(c);
+			var consoleSaver = factory.GetLogSaver("MESSAGEBOX");
 
-            a.Handle(LogType.Debug);
+			mongoSaver.SetNext(consoleSaver);
 
-            Console.ReadKey();
-        }
+			List<string> logs = new List<string>()
+			{
+				"info debug 12301 123jlkasdlaksasldfkj",
+				"[DEBUG] alskdjalsdj1 123123 jalskdjflaskdfj"
+			};
+
+			for (int i = 0; i < logs.Count; i++)
+			{
+				mongoSaver.Handle(logs[i]);
+			}
+
+			Console.ReadKey();
+		}
 	}
 }
