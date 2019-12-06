@@ -1,9 +1,15 @@
-﻿namespace LoggingPatterns.Components.Savers.Database {
-	public class PostgreSaver : ILogSaver {
-		private string sConnection = "blablbalba";
+﻿using LoggingPatterns.Components.Enums;
 
-		public object Save(object _object) {
-			System.Console.WriteLine("Saving to postgre");
-		}
-	}
+namespace LoggingPatterns.Components.Savers.Database {
+    public class PostgreSaver : LogSaver {
+        private string sConnection = "blablbalba";
+
+        public override object Handle(object request) {
+            if ((request as LogType?).IsOneOf(LogType.Info, LogType.Warning, LogType.Critical)) {
+                System.Console.WriteLine("postgres");
+            }
+
+            return base.Handle(request);
+        }
+    }
 }

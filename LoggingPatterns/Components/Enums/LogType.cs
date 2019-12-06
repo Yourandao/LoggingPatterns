@@ -4,9 +4,10 @@ namespace LoggingPatterns.Components.Enums {
 
 	[Flags]
 	public enum LogType {
-		Error = 0x1000,
-		Info = 0x0100,
-		Critical = 0x0010,
-		Debug = 0x0001
+		Error = 0x10000,
+		Info = 0x01000,
+		Critical = 0x00100,
+		Debug = 0x00010,
+        Warning = 0x00001
 	}
 }

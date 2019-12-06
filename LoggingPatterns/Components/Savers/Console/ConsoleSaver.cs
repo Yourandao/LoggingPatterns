@@ -1,14 +1,14 @@
-﻿using LoggingPatterns.Components.CoR;
-using LoggingPatterns.Components.Enums;
+﻿using LoggingPatterns.Components.Enums;
 
 namespace LoggingPatterns.Components.Savers.Console {
-	public class ConsoleSaver : LogHandler, ILogSaver {
-		public object Save(object _object) {
-			if ((_object as LogType?).IsOneOf(LogType.Critical, LogType.Debug, LogType.Error)) {
-				System.Console.WriteLine("blablabla");
-			}
+	public class ConsoleSaver : LogSaver {
 
-			return null;
-		}
-	}
+        public override object Handle(object request) {
+            if ((request as LogType?).IsOneOf(LogType.Debug)) {
+                System.Console.WriteLine("blablabla");
+            }
+
+            return base.Handle(request);
+        }
+    }
 }

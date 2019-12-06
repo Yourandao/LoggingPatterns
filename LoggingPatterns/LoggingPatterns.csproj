@@ -43,8 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Components\CoR\ILogHandler.cs" />
-    <Compile Include="Components\CoR\LogHandler.cs" />
+    <Compile Include="Components\IHandler.cs" />
     <Compile Include="Components\Savers\Console\ConsoleSaver.cs" />
     <Compile Include="Components\Factory\ConsoleFactory.cs" />
     <Compile Include="Components\Factory\EmailFactory.cs" />
@@ -60,6 +59,7 @@
     <Compile Include="Components\Enums\LogType.cs" />
     <Compile Include="Components\Enums\SaverType.cs" />
     <Compile Include="Components\Savers\Email\FtpSaver.cs" />
+    <Compile Include="Components\Savers\LogSaver.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

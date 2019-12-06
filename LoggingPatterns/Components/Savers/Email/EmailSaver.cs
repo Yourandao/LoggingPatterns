@@ -1,7 +1,14 @@
-﻿namespace LoggingPatterns.Components.Savers.Email {
-	public class EmailSaver : ILogSaver {
-		public object Save(object _object) {
-			System.Console.WriteLine("Saving to recepient's mail");
-		}
-	}
+﻿
+using LoggingPatterns.Components.Enums;
+
+namespace LoggingPatterns.Components.Savers.Email {
+	public class EmailSaver : LogSaver {
+        public override object Handle(object request) {
+            if ((request as LogType?).IsOneOf(LogType.Critical)) {
+                System.Console.WriteLine("email");
+            }
+
+            return base.Handle(request);
+        }
+    }
 }

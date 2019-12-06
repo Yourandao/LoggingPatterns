@@ -1,13 +1,15 @@
-﻿using LoggingPatterns.Components.CoR;
+﻿
+using LoggingPatterns.Components.Enums;
 
 namespace LoggingPatterns.Components.Savers.Console {
-	public class MessageBoxSaver : ILogSaver {
-		public ILogHandler Next(ILogHandler handler) {
-			throw new System.NotImplementedException();
-		}
+	public class MessageBoxSaver : LogSaver {
 
-		public object Save(object _object) {
-			throw new System.NotImplementedException();
-		}
-	}
+        public override object Handle(object request) {
+            if ((request as LogType?).IsOneOf(LogType.Debug)) {
+                System.Console.WriteLine("messagebox");
+            }
+
+            return base.Handle(request);
+        }
+    }
 }
